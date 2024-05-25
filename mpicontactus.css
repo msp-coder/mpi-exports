@@ -1,0 +1,441 @@
+
+body{
+    margin: opx;
+    padding: opx;
+
+}
+
+.navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border: none;
+    flex-wrap: wrap;
+}
+
+.fa-angle-down{
+    font-size: 15px;
+    color: #000;
+}
+.link{
+    margin-right: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    position: relative;
+
+}
+
+@media only screen and (max-width:600px){
+    .link{
+        display: none;
+    }
+}
+
+
+
+.drop{
+    border: 1px solid white;
+    background-color: white;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Josefin Sans',sans-serif;
+    display: none; 
+    position: absolute;
+    top: 40px;
+      
+}
+article{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-bottom-color:2px solid grey;
+    text-align: center;
+    padding: 10px;
+
+}
+article:hover{
+ color: #ff5c00;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Josefin Sans',sans-serif;
+   
+}
+a:hover{
+    color: #ff5c00;
+}
+a:hover+.drop{
+color:black;
+display: block;
+transition-timing-function: infinite;
+
+}
+.fa-angle-down{
+    color: #000
+
+}
+.fa-angle-down:hover{
+    color: #ff5c00;
+}
+
+
+.name{
+    margin-left: 80px;
+}
+
+@media only screen and (max-width:600px){
+    .name{
+      margin-left: 0px;
+     }
+}
+
+
+#menu{
+    font-family: "josefin sans",sans-serif;
+    font-size: 20px;
+    display: none;
+    width: 100%;
+    background-color: white;
+    
+    
+
+}
+.mobile{
+    display: none;
+    
+    
+}
+
+@media(max-width:600px){
+    .mobile{
+        display: block
+    }
+}
+
+.cell{
+    border: 1px solid #00000013;
+    background-color: white;
+    padding: 10px 50px;
+    margin-top: 20px;
+    border: none;
+    
+}
+
+
+.fa-bars{
+    color: #000;
+}
+.bg{
+    background-image:url(//mpiexports.com/wp-content/uploads/2018/05/MPI-Banner.jpg);
+    width: 100%;
+    height: 90px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    line-height: 80px;
+    
+}
+.tab{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-family: "josefin sans",sans-serif;
+    margin-left: 50px;
+
+    
+
+}
+.tab1{
+    position: relative;
+    color: white;
+    margin-left: 70%;
+    font-family: "josefin sans",sans-serif;
+    font-size: 20px;
+}
+.cl{
+    color: white;
+    font-size: 20px;
+}
+.map{
+    font-size: 50px;
+    color: #ff5c00;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.first{
+    margin-top: 20px;
+    width: 100%; 
+    text-align: center;
+    position: relative;   
+} 
+.first::after{
+    content: "";
+    width: 100px;
+    border: 2px dashed #ff5c00;
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 45%;
+    
+
+    
+}
+
+.f1 {
+   font-size: 30px;
+   font-family:"josefin sans",sans-serif;
+   color: black;
+}
+
+.f2{
+    font-size: 30px;
+    color: white;
+    background-color: #ff5c00;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: "josefin sans",sans-serif;
+    
+}
+
+.head{
+    font-family: "josefin sans",sans-serif;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight:lighter;
+    position: relative;
+
+}
+.head::after{
+    content: "";
+    width: 100px;
+    border: 2px dashed #ff5c00;
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 45%;
+    
+
+}
+.outer{
+    
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.line{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ff5c00;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: #ff5c00;
+    border-radius: 100%;
+    display: inline-block;
+      
+}
+
+.para{
+    text-align: center;
+    font-family:"Mulish",sans-serif;
+    margin-bottom: 50px;
+
+
+}
+ .icon1 i{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ff5c00;
+    background-color: #ff5c00;
+    color: white;
+    border-radius:100% ;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block; 
+}
+.content{
+    display: inline-block;
+    text-align: center;
+}
+h4{
+    font-family:"mulish",sans-serif;
+}
+h5{
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+h5::after{
+    content: "";
+    width: 100px;
+    border: 2px dashed #ff5c00;
+    display: block;
+    top: 30px;
+    left: 40%;
+    position: absolute;
+
+
+}
+.form{
+    border: 1px solid #ededee;
+    background-color:#ededee;
+    /* width: 40%; */
+    min-height: 400px;
+    padding: 30px 0px;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    
+}
+@media only screen and (max-width:600px){
+    .form{
+        width: 100%;
+    }
+}
+.formhead{
+    margin-left: 50px;
+    font-family: "Mulish",sans-serif;
+    margin-top: 30px;
+}
+.outer1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+label{
+    font-size: 17px;
+    font-family: "Mulish",sans-serif;
+    margin-left: 40px;
+
+}
+input{
+    height: 30px;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+textarea{
+    width:80% ;
+    margin-left: 40px;
+}
+button{
+    font-family:"Mulish",sans-serif ;
+    padding: 5px 10px;
+    margin-left: 40px;
+    background-color: #505050;
+    border: none;
+    color: white;
+
+}
+
+.error{
+    margin-left: 50px;
+    color: red;
+}
+
+
+.footer{
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #000;
+    display: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    padding-top:50px
+    
+
+}
+
+.foot{
+    border-left: 3px solid #ff5c00;
+    /* width: 50%; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Mulish", sans-serif;
+    color: white;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    
+    
+}
+.locate{
+    margin-top: 15px;
+}
+
+ul{
+    list-style-type:  none;
+    
+}
+
+#first{
+   padding-left: 0px; 
+}
+#second{
+    padding-left: 0px;
+}
+#third{
+padding-left: 0px;
+}
+
+.list{
+    border: 1px solid white;
+    /* width: 23%; */
+    font-family: "Mulish",sans-serif;
+    line-height: 30px;
+    border: none;
+    color: white;
+    margin-top: 40px;   
+} 
+
+.sec{
+    /* margin-right: 120px; */
+    margin-top: 10px;
+}
+
+ul i{
+    color: #ff5c00;
+    padding-right: 10px;
+    
+   
+}
+
+.sec i{
+    color: #ff5c00;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
